@@ -1,0 +1,92 @@
+
+1.-) Diagramar una clase llamada producto, con sus atributos y operaciones.
+
+
+ productos
+
+Atributos	Operaciones
+Smartphone	-venta
+tv		-Información
+PC
+Monitores
+Mouse
+Teclado
+
+
+
+
+2.-) ¿Qué es un JAR y para que sirve?
+	Jar denominado "Jara" es un archivo Java, que se utiliza para conectar a una base de datos y gestionarse entre si.
+
+
+
+3.-) ¿ Qué es el MVC?
+	
+	MODEL VISUAL CONTROLER.
+
+	-MODEL
+	
+	Es donde podemos acceder a la información y actualizar mi estado.
+
+	-VISUAL
+	
+	Es donde nos permite visualizar nuestro código y las interfaces del usuario o el que sea.
+	
+	-CONTROLER
+
+	Contiene el código necesario para responder a las acciones que se solicitan en un programa, por ejemplo :
+	-visualizar un elemento
+	-busqueda de información
+	-etc.
+
+4.-) Declarar un array y asignarle valores.
+
+	public class Persona {
+    private String nombre;
+    private int edad;
+    //... // Constructores, getters, setters
+ 
+   public static void main (String[] args){
+       Persona[] familia = new Persona[3];
+       familia[0] = new Persona("Maria", 35);
+       familia[1] = new Persona("Jose", 30);
+       familia[2] = new Persona("Ana", 3);
+   }
+}
+
+4.1)¿ Cómo se obtiene el primer valor del array?
+
+	- Se obtiene a partir del número cero.
+
+4.2)¿Y el último?
+
+	- El número 9.
+
+--extra-- ¿ Y PORQUE?
+
+	- Por que el valor inicial que es 0 se cuenta como un número inicial que rige como "1" y el "9" 
+	como 10 por que contando del 0 al 9 sale la cantidad de 10.
+
+4.3)¿Con qué Estructura de control se itera/recorre un array? de un ejemplo.
+
+
+	Iterator i = Arrays.asList(arreglo).iterator();
+while(i.hasNext()){
+    // trabajar con Objeto o = i.next()
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
